@@ -25,5 +25,5 @@ jobs:
     - name: Use the Upload Artifact GitHub Action
       uses: actions/upload-artifact@v2
       with: 
-        name: main.exe
-        path: build\main\main.exe
+        name: main
+        path: dist\Pumpkincraft.exe
