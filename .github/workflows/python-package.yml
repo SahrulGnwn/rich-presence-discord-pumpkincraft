@@ -18,6 +18,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyinstaller
     - name: build with pyinstaller
+      with:
+        name: main.exe
       run: |
         pyinstaller main.py
         
