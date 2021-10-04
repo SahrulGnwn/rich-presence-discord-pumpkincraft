@@ -1,13 +1,6 @@
-# import urllib library
 from urllib.request import urlopen
-import json
 from pypresence import Presence
-from pathlib import Path
-
 import time
-import yaml
-import io
-import os
 
 get_nickname = "none"
 nickname_isExist = False
