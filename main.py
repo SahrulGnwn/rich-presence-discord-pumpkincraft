@@ -95,3 +95,5 @@ def start():
             break
     str(input("System di close karena error? lakukan report kepada owner untuk bantuan!, ketik apa aja untuk close!: "))
 start()
+
+str(input("System di close karena error? lakukan report kepada owner untuk bantuan!, ketik apa aja untuk close!: "))
