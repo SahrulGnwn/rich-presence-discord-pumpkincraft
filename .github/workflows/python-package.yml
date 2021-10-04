@@ -20,6 +20,7 @@ jobs:
     - name: build with pyinstaller
       run: |
         pyinstaller main.py
+        pyinstaller --noconfirm --onefile --console --icon "discord.ico" --name "Pumpkincraft" main.py
         
     - name: Use the Upload Artifact GitHub Action
       uses: actions/upload-artifact@v2
